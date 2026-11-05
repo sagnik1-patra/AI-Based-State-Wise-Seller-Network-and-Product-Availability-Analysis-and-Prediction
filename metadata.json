@@ -1,0 +1,73 @@
+{
+    "project": "AI-Based State-Wise Seller Network and Product Availability Analysis and Prediction",
+    "created_at": "2026-11-05T23:47:15.523612",
+    "dataset_records": 36,
+    "training_records": 27,
+    "testing_records": 9,
+    "total_seller_points": 71.0,
+    "total_product_listings": 10134.0,
+    "feature": "Number of Seller Points",
+    "target": "Number of Product listed",
+    "best_sklearn_model": "Linear Regression",
+    "best_test_rmse_model": "Neural Network",
+    "results": [
+        {
+            "Model": "Neural Network",
+            "MAE": 220.23297119140625,
+            "RMSE": 248.09407080530966,
+            "R2": -96.18148040771484,
+            "R2_Percentage": -9618.148040771484
+        },
+        {
+            "Model": "Linear Regression",
+            "MAE": 206.688546349818,
+            "RMSE": 249.78016022603376,
+            "R2": -97.50688869529435,
+            "R2_Percentage": -9750.688869529435
+        },
+        {
+            "Model": "Decision Tree",
+            "MAE": 252.65079365079367,
+            "RMSE": 299.26749954042646,
+            "R2": -140.4066496194205,
+            "R2_Percentage": -14040.664961942051
+        },
+        {
+            "Model": "Random Forest",
+            "MAE": 267.050213585797,
+            "RMSE": 316.1096723987179,
+            "R2": -156.77067801851794,
+            "R2_Percentage": -15677.067801851794
+        }
+    ],
+    "neural_network_preprocessing": {
+        "imputer_statistics": [
+            1.0
+        ],
+        "feature_mean": [
+            2.2222222222222223
+        ],
+        "feature_scale": [
+            4.6214742984634265
+        ],
+        "target_mean": [
+            370.81481481481484
+        ],
+        "target_scale": [
+            758.5708315293886
+        ]
+    },
+    "generated_files": [
+        "accuracy_graph.png",
+        "prediction.csv",
+        "prediction_graph.png",
+        "result.csv",
+        "result_graph.png",
+        "comparison_graph.png",
+        "heatmap.png",
+        "model.pkl",
+        "model.h5",
+        "config.yaml",
+        "metadata.json"
+    ]
+}

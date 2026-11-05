@@ -1,0 +1,10 @@
+State/UT,Seller_Points,Actual_Product_Listings,Linear_Regression_Prediction,Decision_Tree_Prediction,Random_Forest_Prediction,Neural_Network_Prediction
+Meghalaya,1,80,186.78,266.71,284.33,195.5
+Tamil Nadu,2,27,337.35,443.0,437.12,346.44
+Puducherry,1,15,186.78,266.71,284.33,195.5
+West Bengal,0,0,36.21,0.0,0.0,96.04
+Jharkhand,1,0,186.78,266.71,284.33,195.5
+Ladakh,0,0,36.21,0.0,0.0,96.04
+Telangana,3,0,487.93,443.0,513.88,437.12
+Jammu and Kashmir,2,0,337.35,443.0,437.12,346.44
+Goa,1,0,186.78,266.71,284.33,195.5

@@ -1,0 +1,36 @@
+project: AI-Based State-Wise Seller Network and Product Availability Analysis and
+  Prediction
+algorithm: Particle Swarm Optimization
+task: Regression
+dataset: C:\Users\sagni\Downloads\AI-Based State-Wise Seller Network and Product Availability
+  Analysis and Prediction\RS_Session_262_AU_869_A_to_B_i.csv
+feature: Number of Seller Points
+target: Number of Product listed
+random_state: 42
+test_size: 0.25
+pso_random_forest:
+  particles: 8
+  iterations: 12
+  inertia: 0.7
+  cognitive: 1.5
+  social: 1.5
+  best_parameters:
+    n_estimators: 30
+    max_depth: 6
+    min_samples_leaf: 1
+    min_samples_split: 9
+    max_features: 0.8470886739438247
+  best_cv_rmse: 561.0225509697497
+pso_neural_network:
+  particles: 5
+  iterations: 5
+  inertia: 0.7
+  cognitive: 1.5
+  social: 1.5
+  best_parameters:
+    units1: 44
+    units2: 25
+    learning_rate: 0.00739295958448694
+  best_validation_rmse: 306.4205392512062
+output_directory: C:\Users\sagni\Downloads\AI-Based State-Wise Seller Network and
+  Product Availability Analysis and Prediction

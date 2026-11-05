@@ -1,0 +1,19 @@
+project_name: AI-Based State-Wise Seller Network and Product Availability Analysis
+  and Prediction
+dataset: C:\Users\sagni\Downloads\AI-Based State-Wise Seller Network and Product Availability
+  Analysis and Prediction\RS_Session_262_AU_869_A_to_B_i.csv
+task: Regression
+features:
+- Number of Seller Points
+target: Number of Product listed
+test_size: 0.25
+random_state: 42
+models:
+- Linear Regression
+- Decision Tree
+- Random Forest
+- Neural Network
+best_sklearn_model: Linear Regression
+best_test_rmse_model: Neural Network
+output_directory: C:\Users\sagni\Downloads\AI-Based State-Wise Seller Network and
+  Product Availability Analysis and Prediction

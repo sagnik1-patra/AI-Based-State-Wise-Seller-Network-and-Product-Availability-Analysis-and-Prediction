@@ -1,0 +1,33 @@
+project: AI-Based State-Wise Seller Network and Product Availability Analysis and
+  Prediction
+algorithm: Artificial Immune System
+optimization_method: Clonal Selection
+dataset: C:\Users\sagni\Downloads\AI-Based State-Wise Seller Network and Product Availability
+  Analysis and Prediction\RS_Session_262_AU_869_A_to_B_i.csv
+feature: Number of Seller Points
+target: Number of Product listed
+random_state: 42
+test_size: 0.25
+ais_random_forest:
+  population_size: 8
+  generations: 12
+  clones_per_parent: 4
+  mutation_rate: 0.25
+  best_hyperparameters:
+    n_estimators: 145
+    max_depth: 3
+    min_samples_leaf: 1
+    min_samples_split: 9
+    max_features: 0.6138399616991626
+  best_cv_rmse: 564.7688143253541
+ais_neural_network:
+  population_size: 5
+  generations: 5
+  clones_per_parent: 2
+  best_parameters:
+    units1: 12
+    units2: 15
+    learning_rate: 0.002638921466540753
+  best_validation_rmse: 299.0975227664047
+output_directory: C:\Users\sagni\Downloads\AI-Based State-Wise Seller Network and
+  Product Availability Analysis and Prediction

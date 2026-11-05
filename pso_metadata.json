@@ -1,0 +1,76 @@
+{
+    "project": "AI-Based State-Wise Seller Network and Product Availability Analysis and Prediction",
+    "algorithm": "Particle Swarm Optimization",
+    "created_at": "2026-11-05T23:58:13.837221",
+    "dataset_records": 36,
+    "training_records": 27,
+    "testing_records": 9,
+    "total_seller_points": 71.0,
+    "total_product_listings": 10134.0,
+    "feature": "Number of Seller Points",
+    "target": "Number of Product listed",
+    "pso_rf_best_parameters": {
+        "n_estimators": 30,
+        "max_depth": 6,
+        "min_samples_leaf": 1,
+        "min_samples_split": 9,
+        "max_features": 0.8470886739438247
+    },
+    "pso_rf_best_cv_rmse": 561.0225509697497,
+    "pso_nn_best_parameters": {
+        "units1": 44,
+        "units2": 25,
+        "learning_rate": 0.00739295958448694
+    },
+    "pso_nn_best_validation_rmse": 306.4205392512062,
+    "model_results": [
+        {
+            "Model": "PSO Neural Network",
+            "MAE": 195.26904296875,
+            "RMSE": 220.77965542594725,
+            "R2": -75.96067810058594,
+            "R2_Percentage": -7596.067810058594
+        },
+        {
+            "Model": "PSO Random Forest",
+            "MAE": 226.99844556163998,
+            "RMSE": 267.7983827000524,
+            "R2": -112.23133359163116,
+            "R2_Percentage": -11223.133359163116
+        }
+    ],
+    "neural_network_preprocessing": {
+        "imputer_statistics": [
+            1.0
+        ],
+        "feature_mean": [
+            2.2222222222222223
+        ],
+        "feature_scale": [
+            4.6214742984634265
+        ],
+        "target_mean": [
+            370.81481481481484
+        ],
+        "target_scale": [
+            758.5708315293886
+        ]
+    },
+    "generated_files": [
+        "pso_model.pkl",
+        "pso_model.h5",
+        "pso_config.yaml",
+        "pso_metadata.json",
+        "pso_accuracy_graph.png",
+        "pso_prediction.csv",
+        "pso_prediction_graph.png",
+        "pso_result.csv",
+        "pso_result_graph.png",
+        "pso_comparison_graph.png",
+        "pso_heatmap.png",
+        "pso_fitness_graph.png",
+        "pso_nn_fitness_graph.png",
+        "pso_optimization_history.csv",
+        "pso_nn_optimization_history.csv"
+    ]
+}

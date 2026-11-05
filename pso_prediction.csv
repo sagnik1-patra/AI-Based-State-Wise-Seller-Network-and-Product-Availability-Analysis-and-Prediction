@@ -1,0 +1,10 @@
+State/UT,Seller_Points,Actual_Product_Listings,PSO_RF_Prediction,PSO_NN_Prediction
+Meghalaya,1,80,247.06,188.58
+Tamil Nadu,2,27,386.73,310.17
+Puducherry,1,15,247.06,188.58
+West Bengal,0,0,0.0,64.71
+Jharkhand,1,0,247.06,188.58
+Ladakh,0,0,0.0,64.71
+Telangana,3,0,403.29,375.34
+Jammu and Kashmir,2,0,386.73,310.17
+Goa,1,0,247.06,188.58

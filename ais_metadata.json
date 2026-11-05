@@ -1,0 +1,74 @@
+{
+    "project": "AI-Based State-Wise Seller Network and Product Availability Analysis and Prediction",
+    "algorithm": "AIS - Clonal Selection",
+    "created_at": "2026-11-05T23:54:25.950122",
+    "dataset_records": 36,
+    "training_records": 27,
+    "testing_records": 9,
+    "total_seller_points": 71.0,
+    "total_product_listings": 10134.0,
+    "ais_rf_best_parameters": {
+        "n_estimators": 145,
+        "max_depth": 3,
+        "min_samples_leaf": 1,
+        "min_samples_split": 9,
+        "max_features": 0.6138399616991626
+    },
+    "ais_rf_best_cv_rmse": 564.7688143253541,
+    "ais_nn_best_parameters": {
+        "units1": 12,
+        "units2": 15,
+        "learning_rate": 0.002638921466540753
+    },
+    "ais_nn_best_validation_rmse": 299.0975227664047,
+    "model_results": [
+        {
+            "Model": "AIS Random Forest",
+            "MAE": 245.85903301387927,
+            "RMSE": 285.7291141143669,
+            "R2": -127.90201666326954,
+            "R2_Percentage": -12790.201666326953
+        },
+        {
+            "Model": "AIS Neural Network",
+            "MAE": 256.2145080566406,
+            "RMSE": 297.55191248755233,
+            "R2": -138.7900390625,
+            "R2_Percentage": -13879.00390625
+        }
+    ],
+    "neural_network_preprocessing": {
+        "imputer_statistics": [
+            1.0
+        ],
+        "feature_mean": [
+            2.2222222222222223
+        ],
+        "feature_scale": [
+            4.6214742984634265
+        ],
+        "target_mean": [
+            370.81481481481484
+        ],
+        "target_scale": [
+            758.5708315293886
+        ]
+    },
+    "files": [
+        "ais_model.pkl",
+        "ais_model.h5",
+        "ais_config.yaml",
+        "ais_metadata.json",
+        "ais_accuracy_graph.png",
+        "ais_prediction.csv",
+        "ais_prediction_graph.png",
+        "ais_result.csv",
+        "ais_result_graph.png",
+        "ais_comparison_graph.png",
+        "ais_heatmap.png",
+        "ais_fitness_graph.png",
+        "ais_nn_fitness_graph.png",
+        "ais_optimization_history.csv",
+        "ais_nn_optimization_history.csv"
+    ]
+}
